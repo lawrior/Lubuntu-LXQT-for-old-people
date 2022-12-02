@@ -1,18 +1,22 @@
 # Lubuntu LXQT for old people a.k.a customize Lubuntu to look like Windows 10
 
 ## Themes:
-Windows 10 Openbox theme
+### Windows 10 Openbox theme
+
 https://www.opendesktop.org/p/1653654
 Beállítások - LXQt beállítása - Openbox beállítása - Új téma telepítése - and choose the .obt file
 
-Lxqt win10 theme
+### Lxqt win10 theme
+
 https://store.kde.org/p/1319223/
 copy to /usr/share/lxqt/themes/
 
-Windows 10 icon theme
+### Windows 10 icon theme
 https://store.kde.org/p/1387736/
+
 copy to /usr/share/icons/
 
+### Windows 10 font 'Segoe UI'
 
 ## how to copy if acces denied
 1. method: Open 'File Manager' (PCManFM) go to 'Tool' tab and choose 'Open as Administrator'.
