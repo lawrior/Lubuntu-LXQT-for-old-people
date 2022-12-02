@@ -30,3 +30,8 @@ https://ubuntu.pkgs.org/18.04/ubuntu-universe-amd64/fonts-open-sans_1.11-1_all.d
 2. method: Open 'Terminal' example: cp -r /home/USER/Downloads/Win10 /usr/share/lxqt/themes/
 
 
+## Install libreoffice with hungarian lang.
+Donwload the deb from the official site.
+Open terminal 
+$ cd LibreOffice_$version_Linux_x86-deb/DEBS/
+$ sudo dpkg -i *.deb
