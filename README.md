@@ -36,18 +36,23 @@ Open terminal
 $ cd LibreOffice_$version_Linux_x86-deb/DEBS/
 $ sudo dpkg -i *.deb
 
-## How to change mouse speed
+## How to change mouse speed https://askubuntu.com/questions/205676/how-to-change-mouse-speed-sensitivity
 In Terminal write:
+
 xinput --list --short
 
 You will get all the inputs like mouse, keyboard.
+
 Find you mouse device, use its number(e.g.: 11) in the following code:
 
 xinput --list-props 11
+
 This will list all its properties.
+
 Use the number of the "accel" property(e.g.331) in the following code:
 
 xinput --set-prop 11 331 -1
+
 where
 11 is the mouse device
 331 is the accel property
